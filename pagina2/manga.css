@@ -1,0 +1,122 @@
+:root {
+    --cor0:#6A1625;
+    --cor1:#0C0C1C;
+    --cor2:#1D2331;
+    --cor3:#C4A464;
+    --cor4:#C93647;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor2);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(to left, var(--cor2), var(--cor1), var(--cor0));
+    height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header h1 {
+    color: var(--cor3);
+    font-size: 3em;
+    line-height: 1.5em;
+}
+
+header p {
+    color: var(--cor3);
+    padding: 0 10px;
+}
+
+nav {
+    background-color: var(--cor1);
+    padding-left: 20px;
+}
+
+nav a img {
+    height: 40px;
+    adding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition-duration: 0.5s;
+}
+
+nav a img:hover {
+    background-color: var(--cor2);
+    border-radius: 50px;
+}
+
+main {
+    background-color: var(--cor0);
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 20px;
+}
+
+main h2 {
+    color: var(--cor1);
+    line-height: 1.5em;
+    text-align: center;
+    background-image: linear-gradient(to left, transparent, var(--cor3), var(--cor4), transparent);
+    font-size: 1.7em;
+}
+
+main h3 {
+    line-height: 2em;
+    font-size: 1.5em;
+    color: var(--cor1);
+}
+
+main p {
+    color: var(--cor2);
+    font-size: 1.3em;
+    font-weight: bold;
+    line-height: 1.4em;
+    text-align: center;
+    padding: 15px 0;
+}
+
+main li {
+    color: var(--cor2);
+    padding: 5px;
+    list-style-position: inside;
+    font-size: 1.1em;
+}
+
+article {
+    max-width: 800px;
+    min-width: 300px;
+    margin: auto;
+}
+
+article img {
+    padding-top: 20px;
+    width: 100%;
+}
+
+footer {
+    background-image: linear-gradient(to left, var(--cor2), var(--cor1), var(--cor0));
+    text-align: center;
+    padding: 5px;
+    color: var(--cor3);
+}
+
+footer a {
+    color: var(--cor3);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: var(--cor4);
+}
