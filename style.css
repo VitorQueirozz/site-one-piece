@@ -127,3 +127,10 @@ footer a:hover {
     color: var(--cor0);
     text-decoration: underline;
 }
+
+
+@media screen and (max-width: 560px) {
+    ::-webkit-scrollbar {
+        width: 0;
+    }
+}
